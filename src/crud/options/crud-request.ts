@@ -39,6 +39,7 @@ export class CrudRequestOptions {
         parser.parseQuery(this.queryParams);
 
         if (this.hasLength(this.queryParams.s)) {
+            this.queryParams.search = this.queryParams.s;
             return;
         } else if (
             this.hasLength(this.queryParams.filter) &&
