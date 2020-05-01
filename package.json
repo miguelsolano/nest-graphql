@@ -1,6 +1,6 @@
 {
   "name": "@msolano/nest-graphql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NestJS GraphQL package to facilitate development of resolver and use nestjsx/crud.",
   "author": "Miguel Solano <m.a.solano93@gmail.com>",
   "license": "MIT",
