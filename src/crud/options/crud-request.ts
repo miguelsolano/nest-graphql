@@ -3,7 +3,6 @@ import { RequestQueryParser } from '@nestjsx/crud-request';
 export class CrudRequestOptions {
     constructor(private readonly queryParams: any) {
         this.queryParams = queryParams;
-        console.log('qP: ', this.queryParams);
         this.formatSearchAndFilters();
     }
 
