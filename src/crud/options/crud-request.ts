@@ -39,7 +39,7 @@ export class CrudRequestOptions {
         parser.parseQuery(this.queryParams);
 
         if (this.hasLength(this.queryParams.s)) {
-            search = this.queryParams.s;
+            search = JSON.parse(this.queryParams.s);
         } else if (
             this.hasLength(this.queryParams.filter) &&
             this.hasLength(this.queryParams.or)
